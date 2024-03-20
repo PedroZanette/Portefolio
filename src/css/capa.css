@@ -1,0 +1,37 @@
+.cover {
+  height: 100vh; /* 100% da altura da viewport */
+  background-color: #f0f0f0; /* Cor de fundo da capa */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cover-content {
+  max-width: 600px; /* Largura máxima do conteúdo */
+}
+
+.cover-content h1 {
+  font-size: 3rem; /* Tamanho da fonte do título */
+  margin-bottom: 20px; /* Espaçamento inferior do título */
+}
+
+.cover-content p {
+  font-size: 1.5rem; /* Tamanho da fonte do parágrafo */
+  margin-bottom: 40px; /* Espaçamento inferior do parágrafo */
+}
+
+.cover-content button {
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  border: none; /* Remove a borda do botão */
+  border-radius: 5px; /* Borda arredondada do botão */
+  font-size: 1.2rem; /* Tamanho da fonte do botão */
+  cursor: pointer; /* Cursor do mouse ao passar sobre o botão */
+  transition: background-color 0.3s ease; /* Transição suave de cor de fundo */
+}
+
+.cover-content button:hover {
+  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}

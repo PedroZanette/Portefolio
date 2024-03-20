@@ -1,0 +1,79 @@
+/* Adicione seus estilos aqui */
+/* Você pode personalizar conforme necessário */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.presentation {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.projects {
+  padding: 50px 0;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.project h3 {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
